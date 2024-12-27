@@ -95,8 +95,3 @@ Este proyecto está diseñado para trabajar en conjunto con el sistema de [CajaR
 2. 🔧 Crear una nueva rama
 3. 📝 Realizar tus cambios
 4. 📫 Enviar un Pull Request
-
-
-<div align="center">
-Desarrollado con ❤️
-</div>
