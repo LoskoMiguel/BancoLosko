@@ -1,73 +1,102 @@
-# BancoLosko (Proyecto de Prueba)
+# 🏦 BancoLosko (Proyecto de Prueba)
 
-API REST para servicios bancarios desarrollada con FastAPI. Este es un proyecto de prueba con fines educativos y de demostración, no está destinado para uso en producción.
+<div align="center">
 
-## Descripción
+![Banner](https://img.shields.io/badge/Status-En%20Desarrollo-green)
+![Python](https://img.shields.io/badge/Python-3.7+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-Latest-red)
 
-BancoLosko es una API REST que simula servicios bancarios básicos, implementada utilizando FastAPI y SQLAlchemy para la gestión de base de datos. Este proyecto fue creado como un ejercicio de aprendizaje y demostración de habilidades en el desarrollo de APIs con Python.
+</div>
 
-> **Nota**: Este es un proyecto de prueba y no debe utilizarse en un entorno de producción real. No implementa todas las medidas de seguridad necesarias para un sistema bancario real.
+## 🚀 Descripción
 
-## Características
+BancoLosko es una innovadora API REST que simula servicios bancarios, diseñada como un sistema moderno y eficiente. Este proyecto forma parte de un ecosistema más amplio, integrándose perfectamente con el sistema de [CajaRegistradora](https://github.com/LoskoMiguel/CajaRegistradora) para proporcionar una solución completa de gestión financiera.
 
-- Autenticación de usuarios
-- Gestión de cuentas bancarias
-- API RESTful con documentación automática
-- Middleware CORS habilitado para integración con frontends
+> 💡 **Nota**: Este es un proyecto de prueba desarrollado con fines educativos y de demostración. No está destinado para uso en producción.
 
-## Tecnologías Utilizadas
+## ✨ Características Principales
 
-- FastAPI
-- SQLAlchemy
-- Python-Jose (JWT)
-- BCrypt
-- Uvicorn
+- 🔐 **Autenticación Segura**
+- 💳 **Gestión de Cuentas**
+- 🔄 **Integración**
 
-## Requisitos
+## 🛠️ Tecnologías Utilizadas
+
+- ⚡ FastAPI - Framework moderno y rápido
+- 🗃️ SQLAlchemy - ORM potente y flexible
+- 🔑 Python-Jose (JWT) - Autenticación segura
+- 🔒 BCrypt - Encriptación robusta
+- 🚀 Uvicorn - Servidor ASGI de alto rendimiento
+
+## 📋 Requisitos Previos
 
 - Python 3.7+
 - Entorno virtual (venv)
 - Dependencias listadas en `requeriments.txt`
 
-## Instalación
+## 🚀 Guía de Instalación
 
-1. Clonar el repositorio
-2. Crear y activar el entorno virtual:
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/LoskoMiguel/BancoLosko
+cd BancoLosko
+```
+
+2. **Crear y activar el entorno virtual**
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
-3. Instalar dependencias:
+
+3. **Instalar dependencias**
 ```bash
 pip install -r requeriments.txt
 ```
 
-## Uso
+## 💻 Uso
 
-Para iniciar el servidor en modo desarrollo:
-
+**Iniciar el servidor en modo desarrollo:**
 ```bash
 uvicorn main:app --reload
 ```
 
-El servidor se iniciará en `http://localhost:8000`
+🌐 El servidor estará disponible en `http://localhost:8000`
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```
 BancoLosko/
-├── app/
-│   ├── core/           # Configuraciones centrales
-│   ├── database/       # Configuración de la base de datos
-│   ├── models/         # Modelos de SQLAlchemy
-│   ├── routers/        # Rutas de la API
-├── main.py            # Punto de entrada de la aplicación
-├── requeriments.txt   # Dependencias del proyecto
-└── README.md          # Documentación del proyecto
+├── 📂 app/
+│   ├── 📂 core/           # Configuraciones centrales
+│   ├── 📂 database/       # Configuración de la base de datos
+│   ├── 📂 models/         # Modelos de SQLAlchemy
+│   ├── 📂 routers/        # Rutas de la API
+├── 📜 main.py            # Punto de entrada de la aplicación
+├── 📝 requeriments.txt   # Dependencias del proyecto
+└── 📖 README.md          # Documentación del proyecto
 ```
 
-## Documentación API
+## 📚 Documentación API
 
-Una vez que el servidor esté corriendo, puedes acceder a:
-- Documentación Swagger UI: `http://localhost:8000/docs`
-- Documentación ReDoc: `http://localhost:8000/redoc`
+Una vez que el servidor esté corriendo, accede a:
+- 📘 **Swagger UI**: `http://localhost:8000/docs`
+- 📗 **ReDoc**: `http://localhost:8000/redoc`
+
+## 🔗 Integración con CajaRegistradora
+
+Este proyecto está diseñado para trabajar en conjunto con el sistema de [CajaRegistradora](https://github.com/LoskoMiguel/CajaRegistradora)
+
+## 👥 Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, no dudes en:
+
+1. 🍴 Hacer un Fork del proyecto
+2. 🔧 Crear una nueva rama
+3. 📝 Realizar tus cambios
+4. 📫 Enviar un Pull Request
+
+
+<div align="center">
+Desarrollado con ❤️
+</div>
